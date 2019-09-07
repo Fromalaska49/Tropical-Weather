@@ -1,0 +1,53 @@
+body
+{
+font-family:arial;
+}
+.sidebar
+{
+background-color:lightgray;
+position:fixed;
+top:0px;
+bottom:0px;
+left:0px;
+width:150px;
+padding:0px;
+}
+.main
+{
+position:fixed;
+left:150px;
+top:0px;
+right:0px;
+bottom:0px;
+overflow:auto;
+}
+.mi
+{
+margin:5px;
+width:140px;
+height:140px;
+background-color:#555555;
+box-shadow:inset 0px 1px 12px -2px black;
+}
+.miactive
+{
+margin:5px;
+width:140px;
+height:140px;
+background-color:#555555;
+/*
+box-shadow:inset 0px 1px 12px -2px white;
+*/
+}
+.mii
+{
+width:140px;
+height:140px;
+display:table-cell;
+vertical-align:middle;
+color:white;
+text-shadow:0px 1px #888888;
+}
+img {
+  max-height: 400px;
+}
